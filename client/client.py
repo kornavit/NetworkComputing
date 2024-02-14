@@ -1,8 +1,8 @@
 import socket
 
-IP = socket.gethostbyname(socket.gethostname())
-PORT = 4455
-ADDR = (IP, PORT)
+# IP = socket.gethostbyname(socket.gethostname())
+PORT = 12345
+ADDR = ('localhost', PORT)
 FORMAT = "utf-8"
 SIZE = 1024
 headers = {'Content-type': 'text/file'}
